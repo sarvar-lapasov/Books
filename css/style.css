@@ -1,0 +1,47 @@
+.container-fluid {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.card-img-top {
+
+  height: 26vw;
+  object-fit: fill;
+}
+
+
+.tabcontent {
+  display: none;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 30vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 992px) {
+  .card-img-top {
+    height: 30vw;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 40vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 100vw;
+  }
+}
